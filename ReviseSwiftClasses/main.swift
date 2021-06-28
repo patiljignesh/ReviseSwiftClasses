@@ -5,7 +5,10 @@
 //  Created by Jigneshkumar Patil on 2021/06/28.
 //
 
-import Foundation
+//initialise class by creating an object
 
-print("Hello, World!")
+let skeleton = Enemy()
+print(skeleton.health)
 
+skeleton.move()
+skeleton.attack()
